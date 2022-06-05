@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+main {
+    height: 100vh;
+    width: 100%;
+    background: #666;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.score{ 
+    width: 350px;
+    display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.results {
+    margin-left: 20px;
+    font-size: 1.5em;
+}
+
+.playerChoice {
+    margin-top: 20px;
+    font-size: 1.7em;
+    text-transform: uppercase;
+}
+
+.gameTable {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 700px;
+    height: 650px;
+    border: 2px solid black;
+    color: white;
+}
+
+.gamescore {
+    display: flex;
+    justify-content: space-around;
+    text-align: end;
+    height: 60px;
+    border: 2px solid black;
+}
+
+
+.gameplace {
+    background: rgb(75, 143, 74);
+    height: 585px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.player {
+    text-align: center;
+    margin-top: 10px;
+}
+.computer {
+    margin-bottom: 10px;
+}
+
+.PlayerBtns button{
+    border: none;
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    text-transform: capitalize;
+    transition: 0.3s;
+    
+}
+
+.PlayerBtns button:hover {
+    transform: scale(1.2);
+    background: darkblue;
+    color: white;
+}
+.selected{
+    height: 120px;
+    width: 120px;
+    background: darkblue;
+    color: white;
+
+}
+.compChoice {
+    margin-bottom: 40px;
+
+}
+.computerChoice{
+    margin-bottom: 20px;
+    font-size: 2em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.btnstart {
+padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    transition: 0.3s;
+}
+.btnstart:hover{
+    background: darkblue;
+    color: white;
+    cursor: pointer;   
+}
+
+.btnstart:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
